@@ -166,8 +166,8 @@ body{
     color: black !important;
 }
 .intro {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(114, 89, 89, 0.5)), url('./img/hp2.jpg'); */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(114, 89, 89, 0.5)), url('http://www.shreyatourandtravels.in/images/banner.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(114, 89, 89, 0.5)), url('./img/banner.jpg'); 
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(114, 89, 89, 0.5)), url('http://www.shreyatourandtravels.in/images/banner.jpg'); */
     background-size: cover;
     width: 100%;
     height: 100vh;
