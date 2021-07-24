@@ -371,23 +371,23 @@ button:hover{
     background-size: cover;
 }
 .box6{
-    background: url('./img/pack7.jpg');
+    background: url('./img/T7head.jpg');
     background-size: cover;
     background-position: center;
 }
 .box7{
-    background: url('./img/pack6png.png');
+    background: url('./img/T6head.jpg');
     background-size: cover;
     background-position: center;
 }
 .box8{
-    background: url('./img/pack5.jpg');
+    background: url('./img/T5head.jpg');
     background-size: cover;
     background-position: center;
 }
 /* Tour 2 other tour slider */
 .T2box6{
-    background: url('./img/pack1.jpg');
+    background: url('./img/T1G1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -415,7 +415,7 @@ button:hover{
     background-position-y: -40px;
 }
 .T5box8{
-    background: url('./img/pack1.jpg');
+    background: url('./img/T1G1.jpg');
     background-size: cover;
     background-position:center;
 }
@@ -432,12 +432,12 @@ button:hover{
 }
 /* Tour 7 other tour slider */
 .T7box6{
-    background: url('./img/pack6png.png');
+    background: url('./img/T6head.jpg');
     background-size: cover;
     background-position-y: -40px;
 }
 .T7box7{
-    background: url('./img/pack1.jpg');
+    background: url('./img/T1G1.jpg');
     background-size: cover;
     background-position-y: -40px;
 }
