@@ -1,0 +1,459 @@
+/* Tour 1 head */
+.head{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/T1head.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    background-position: center;
+}
+/* Tour 2 head */
+.T2head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T2head.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* Tour 3 head */
+.T3head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T3head.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* Tour 4 head */
+.T4head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T4head.jpg');
+    background-position-y: -14vw;
+    background-size: cover;
+}
+/* Tour 5 head */
+.T5head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T5head.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* Tour 6 head */
+.T6head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T6head.jpg');
+    background-position:center;
+    background-size: cover;
+}
+/* Tour 7 head */
+.T7head{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./img/T7head.jpg');
+    background-position-y:-22vw;
+    background-size: cover;
+}
+p{
+    font-size: 1.1rem;
+    margin: 14px 0px;
+}
+.head h1{
+    position: absolute;
+    font-size: 2.3rem;
+    top: 28%;
+    left: 35%;
+    color: white;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.tour-details{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    padding: 0px 25px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.details{
+    width: 50%;
+}
+.details h1{
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color:  #555;
+}
+.form{
+    width: 40vw;
+    position: relative;
+    margin: 0px 8%;
+    height: 70vw;
+    background-color: turquoise;
+    top: 4vw;
+    font-family: 'Noto Serif', serif;
+}
+.form img{
+    vertical-align: middle;
+    width: 10vw;
+    position: absolute;
+    right: -15%;
+    top: -7%;
+}
+label{
+    display: inline-block;
+    width: 30%;
+    margin-right: 10%;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+input{
+    margin: 10px 16px;
+    padding: 7px 16px;
+    font-size: 16px;
+    width: 50%;
+    outline: none;
+    border: none;
+}
+button{
+    font-size: 1.1rem;
+    padding: 8px 8%;
+    cursor: pointer;
+    background: none;
+    border: 1px solid black;
+    outline: none;
+    margin: 10px 25px;
+    position: relative;
+    left: 14%;
+    transition: all 0.1s;
+}
+button:hover{
+    color: white;
+    border-color: white;
+}
+.gallery{
+    width: 100%;
+    margin: 35px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 20px 3px;
+}
+/* gallery slider */
+.slider .box{
+    position: relative;
+    min-width: 30vw;
+    height: 16vw;
+    border: 2px solid black;    
+    margin: 0px 18px;
+    transition: all 0.7s;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+/* other tour slider */
+.slider .Obox{
+    position: relative;
+    min-width: 30vw;
+    height: 16vw;
+    border: 2px solid black;    
+    margin: 0px 18px;
+    transition: all 0.7s;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.new1{
+    transform: translateX(-33vw);
+} 
+/* Tour 1 gallery slide box */
+.T1box1{
+    background: url('./img/T1G1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T1box2{
+    background: url('./img/T1G2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T1box3{
+    background: url('./img/T1G3.png');
+    background-size: cover;
+    background-position: center;
+}
+.T1box4{
+    background: url('./img/T1G4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Tour 2  gallery slider box*/
+.T2box1{
+    background: url('./img/T2G1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T2box2{
+    background: url('./img/T2G2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T2box3{
+    background: url('./img/T2G3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T2box4{
+    background: url('./img/T2G4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 3  gallery slider box*/
+.T3box1{
+    background: url('./img/T3G1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T3box2{
+    background: url('./img/T3G2.webp');
+    background-size: cover;
+    background-position: center;
+}
+.T3box3{
+    background: url('./img/T3G3.jpg');
+    background-size: cover;
+    background-position-y: -60px;
+}
+.T3box4{
+    background: url('./img/T3G4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 4  gallery slider box*/
+.T4box1{
+    background: url('./img/T4G1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T4box2{
+    background: url('./img/T4G2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T4box3{
+    background: url('./img/T4G3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T4box4{
+    background: url('./img/T4G4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 5 gallery slide box */
+.T5box1{
+    background: url('./img/T5G1.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+.T5box2{
+    background: url('./img/T5G2.webp');
+    background-size: cover;
+    background-position: center;
+}
+.T5box3{
+    background: url('./img/T5G3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T5box4{
+    background: url('./img/T5G4.jfif');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 6 gallery slide box */
+.T6box1{
+    background: url('./img/T6G1.jpg');
+    background-size: cover;
+    background-position-y: -50px;
+}
+.T6box2{
+    background: url('./img/T6G2.png');
+    background-size: cover;
+    background-position: center;
+}
+.T6box3{
+    background: url('./img/T6G3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.T6box4{
+    background: url('./img/T6G4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 7 gallery slide box */
+.T7box1{
+    background: url('./img/T7G1.jpg');
+    background-size: cover;
+    /* background-position-y: -50px; */
+    background-position:center;
+}
+.T7box2{
+    background: url('./img/T7G2.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.T7box3{
+    background: url('./img/T7G3.webp');
+    background-size: cover;
+    background-position: center;
+}
+.arrow{
+    width: 4vw;
+    border: 1px solid black;
+    position: relative;
+    bottom: 1vw;
+    cursor: pointer;
+    left: 43vw;
+    transition: all 0.7s;
+}
+.arrow img{
+    position: relative;
+    left: -24px;
+}
+.forward{
+    left: 54%;
+    bottom: 5.1vw;
+}
+.forward img{
+    left: 22px;
+}
+.arrow:hover{
+    background-color: blanchedalmond;
+}
+.tag{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 75%;
+    padding: 5px 0px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: white;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.overlay1{
+    /* text-align: center; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* right: 0; */
+    background-color:#1bc2a2;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.text1 {
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box:hover .overlay1 {
+    height: 83%;
+}
+.box:hover .tag{
+    top: -9%;
+}
+.Obox:hover .overlay1{
+    height: 83%;
+}
+.Obox:hover .tag{
+    top: -9%;
+}
+
+/* Tour 1  other tour slider*/
+.box5{
+    background: url('./img/pack2.jpg');
+    background-size: cover;
+}
+.box6{
+    background: url('./img/pack7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    background: url('./img/pack6png.png');
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    background: url('./img/pack5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 2 other tour slider */
+.T2box6{
+    background: url('./img/pack1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 3 other tour slider */
+.T3box6{
+    background: url('./img/pack4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Tour 4 other tour slider */
+.T4box6{
+    background: url('./img/pack3.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+/* Tour 5 other tour slider */
+.T5box6{
+    background: url('./img/pack3.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+.T5box7{
+    background: url('./img/pack4.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+.T5box8{
+    background: url('./img/pack1.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.T5box9{
+    background: url('./img/pack2.jpg');
+    background-size: cover;
+    background-position:center;
+}
+/* Tour 6 other tour slider */
+.T6box6{
+    background: url('./img/pack1.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+/* Tour 7 other tour slider */
+.T7box6{
+    background: url('./img/pack6png.png');
+    background-size: cover;
+    background-position-y: -40px;
+}
+.T7box7{
+    background: url('./img/pack1.jpg');
+    background-size: cover;
+    background-position-y: -40px;
+}
+.btn1{
+    left: 25%;
+    top: 70%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 8px 8%;
+    margin: 10px 25px;
+    position: relative;
+}
+.btn1:hover{
+    border-color: white;
+    color: white;
+}
+

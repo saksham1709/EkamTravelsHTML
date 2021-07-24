@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Ekam Travels</title>
+    <link rel="icon" href="./img/ekam-01.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- <nav class="upper-nav">
+        <div class="u-left">
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <a href="/">Ekam Travels</a>
+        </div>
+        <div class="u-right">
+            <img src="https://img.icons8.com/android/24/000000/outgoing-call.png">
+            <a href="tel:+91-9205209865">+91-9205209865</a>
+            <img src="https://img.icons8.com/ios-filled/24/000000/email-open.png">
+            <a href="mailto: sakshamsharma1709@gmail.com">Email</a>
+        </div>
+    </nav> -->
+    <section class="jumbo">
+        <section class="nav">
+            <a href="/">
+                <h1>Ekam Travels</h1>
+            </a>
+            <ul class="main-navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About us</a></li>
+                <li><a href="/#vehicles">Vehicles</a>
+                    <ul>
+                        <li><a href="/">3+1 Seater</a>
+                            <ul>
+                                <li><a href="/">Wagon-R</a></li>
+                                <li><a href="/">Etios</a></li>
+                                <li><a href="/">Swift</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">5+1 Seater</a>
+                            <ul>
+                                <li><a href="/">Innova</a></li>
+                                <li><a href="/">Ertiga</a></li>
+                                <li><a href="/">Marrazo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">Tempo Traveller</a>
+                            <ul>
+                                <li><a href="/">12 Seater</a></li>
+                                <li><a href="/">15 Seater</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/">Buses</a>
+                            <ul>
+                                <li><a href="/">45 Seater Semi-Deluxe</a></li>
+                                <li><a href="/">45 Seater Volvo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/#services">Services</a>
+                <li><a href="/#packs">Hot Tours</a>
+                    <ul>
+                        <li><a href="/tour1.html">Dehraduan Mussoorie</a></li>
+                        <li><a href="/tour2.html">Kullu-Manali</a></li>
+                        <li><a href="/tour3.html">Jaipur-Udaipur-Jodhpur</a></li>
+                        <li><a href="/tour4.html">Mathura-Vrindavan</a></li>
+                        <li><a href="/tour5.html">Katra-Vaishno Devi</a></li>
+                        <li><a href="/tour6.html">Kasol-Kufri</a></li>
+                        <li><a href="/tour7.html">Kashmir</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Gallery</a></li>
+                <li><a href="/#contact" class="cta-con">Contact us</a></li>
+            </ul>
+        </section>
+        <section class="intro">
+            <div class="intro-texts">
+                <h1>WELCOME TO EKAM TRAVELS</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Nam, fuga.</p>
+                <a onclick="call()">book now</a>
+            </div>
+        </section>
+        <div class="cta">
+            <img class="cta-img" style="width: 32px;height: 32px;" onclick="call2()" src="https://img.icons8.com/windows/32/000000/macos-close.png"/>
+            <h1>Send Details</h1>
+            <form action="/" method="post"> 
+                <input required='' type='text'>
+                <label alt='Name' placeholder='Enter your Name'></label>
+                <input required='' type='text'>
+                <label alt='Phone No.' placeholder='Enter your Number'></label>
+                <input required='' type='email'>
+                <label alt='Mail ID' placeholder='Enter your Email'></label>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <a href="#packs" class="cta-down"><img src="./img/cta2.png"></a>
+        <section class="services" id="services">
+            <h1>Services</h1>
+            <div style="display: flex">
+                <div class="s-info" data-aos="fade-down" data-aos-duration="1200">
+                    <img src="https://img.icons8.com/nolan/64/handshake.png" />
+                    <h1 class="new">Price Guarantee</h1>
+                    <p>Find our lowest price to destinations
+                        worldwide, guaranteed.</p>
+                </div>
+                <div class="s-info" data-aos="fade-down" data-aos-duration="1200">
+                    <img src="./img/servicesIMG.png" style="width: 64px">
+                    <h1 class="new">Easy Booking</h1>
+                    <p>Search, select and save - the fastest
+                        way to book your trip.</p>
+                </div>
+                <div class="s-info" data-aos="fade-down" data-aos-duration="1200">
+                    <img src="https://img.icons8.com/dusk/64/000000/online-support.png" />
+                    <h1 class="new">24/7 Customer Care</h1>
+                    <p>Get booking assistance and special deals
+                        by calling <a href="tel:+91-9205209865">+91-9205209865</a>.</p>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <h1>Why Choose Us</h1>
+            <div class="why1">
+                <div class="why-img" data-aos="fade-right" data-aos-duration="1200">
+                    <img src="./img/why-img.png">
+                </div>
+                <div class="why-grid" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="grid">
+                        <img src="https://img.icons8.com/material-sharp/30/4a90e2/package-delivery-logistics.png">
+                        <h1>Exclusive Packages</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore.</p>
+                    </div>
+                    <div class="grid">
+                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/globe--v1.png">
+                        <h1>World Class Services</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore.</p>
+                    </div>
+                    <div class="grid">
+                        <img src="https://img.icons8.com/officel/24/4a90e2/manager.png">
+                        <h1>Best Travel Guide</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore.</p>
+                    </div>
+                    <div class="grid">
+                        <img src="https://img.icons8.com/metro/24/4a90e2/lock-2.png">
+                        <h1>100% Secure</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="packs" id="packs">
+            <h1>Tour Packages</h1>
+            <div class="tours">
+                <div class="tour-info" data-aos="fade-right">
+                    <a href="/tour1.html" class="TH">
+                        <h1>Dehradun Mussoorie Tour</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour1.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-left"><img src="./img/pack1.jpg"></div>
+            </div>
+            <hr>
+            <div class="tours tours1">
+                <div class="tour-info" data-aos="fade-left">
+                    <a href="/tour2.html" class="TH">
+                        <h1>Kullu-Manali</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour2.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-right"><img src="./img/pack2.png"></div>
+            </div>
+            <hr>
+            <div class="tours">
+                <div class="tour-info" data-aos="fade-right">
+                    <a href="/tour3.html" class="TH">
+                        <h1>Jaipur-Ajmer-Pushkar</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour3.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-left"><img src="./img/pack3.jpg"></div>
+            </div>
+            <hr>
+            <div class="tours tours1">
+                <div class="tour-info" data-aos="fade-left">
+                    <a href="/tour4.html" class="TH">
+                        <h1>Agra-Mathura-Vrindavan</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour4.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-right"><img src="./img/pack4.jpg"></div>
+            </div>
+            <hr>
+            <div class="tours">
+                <div class="tour-info" data-aos="fade-right">
+                    <a href="/tour5.html" class="TH">
+                        <h1>Jim Corbett</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour5.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-left"><img src="./img/pack5.jpg"></div>
+            </div>
+            <hr>
+            <div class="tours tours1">
+                <div class="tour-info" data-aos="fade-left">
+                    <a href="/tour6.html" class="TH">
+                        <h1>Shimla-Kufri</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour6.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-right"><img src="./img/pack6png.png"></div>
+            </div>
+            <hr>
+            <div class="tours">
+                <div class="tour-info" data-aos="fade-right">
+                    <a href="/tour7.html" class="TH">
+                        <h1>Amritsar</h1>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ut expedita odio, excepturi
+                        ratione adipisci ipsa rem! Similique perferendis blanditiis illo totam sit autem fugit
+                        fugiat,accusamus magni corrupti eligendi.</p>
+                    <a href="/tour7.html" class="T-btn">Buy This Tour</a>
+                </div>
+                <div class="tour-pics" data-aos="fade-left"><img src="./img/pack7.jpg"></div>
+            </div>
+
+        </section>
+        <section class="jumbotron" id="vehicles">
+            <div class="about" id="about">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, consequuntur qui et beatae
+                    officiisest eveniet ex ratione itaque? Vitae reiciendis velit, ipsam sequi excepturi corporis,
+                    aperiam undedolores vero hic tenetur itaque ab adipisci nam veritatis nesciunt? Voluptate
+                    repellendus corrupti oditaliquid doloribus hic temporibus, beatae saepe maxime reprehenderit! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit magni vel nihil laudantium
+                    ipsam ab porro repellendus voluptatem, temporibus cumque sequi autem consequatur eos pariatur
+                    consequuntur sint molestias cum eaque dicta dolorum ullam molestiae consectetur! Nihil, saepe
+                    molestias? Ullam obcaecati cupiditate a odit tempore rem quia nihil placeat delectus doloribus,
+                    excepturi, unde nemo nam quaerat reiciendis, doloremque iste soluta repellat corrupti ratione
+                    voluptas animi nisi nesciunt ipsam! Impedit, quos doloremque. Reprehenderit totam tenetur tempore
+                    veniam sapiente ad quisquam architecto optio illum amet? Alias adipisci vitae numquam voluptatum
+                    perspiciatis corrupti, veniam autem deleniti distinctio ipsum. Possimus officia laborum suscipit
+                    consectetur?</p>
+            </div>
+            <div class="slide">
+                <h1>Vehicles</h1>
+                <div class="container">
+                    <div class="mySlides fade" style="overflow: hidden;">
+                        <img src="https://imgd.aeplcdn.com/1056x594/cw/ec/26860/Maruti-Suzuki-Dzire-Front-view-105301.jpg?v=201711021421&q=85"
+                            style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle1.html">Maruti Suzuki Swift Dzire</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./img/liva.webp.png" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle2.html">Toyota Etios Liva</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://imgd.aeplcdn.com/1056x594/ec/EF/32/17070/img/m/Toyota-Etios-Exterior-45017_ol.jpg?v=201711021421&q=85"
+                            style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle3.html">Toyota Etios</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://imgd.aeplcdn.com/1056x594/ec/1A/09/10215/img/l/Toyota-Innova-Front-Left-20799.jpg?v=201711021421&q=85"
+                            style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle4.html">Toyota Innova</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://imgd.aeplcdn.com/1056x594/cw/ec/42060/Maruti-Suzuki-Ertiga-Exterior-169144.jpg?v=20190509180611&wm=1&q=85"
+                            style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle5.html">Maruti Suzuki Ertiga</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="https://wallpapercave.com/wp/wp4482161.jpg" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle6.html">Toyota Innova Crysta</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./img/12t.jpg" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle7.html">12 Seater Tempo Traveller</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./img/15tempo.jfif" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle8.html">16 Seater Tempo Traveller</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./img/41b.jpg" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle9.html">41 Seater Bus</a></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./img/45b.jpg" style="width:100%" class="Ihover">
+                        <div class="overlay2">
+                            <div class="text2"><a href="vehicle10.html">45 Seater Bus</a></div>
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor"
+                                src="https://imgd.aeplcdn.com/1056x594/cw/ec/26860/Maruti-Suzuki-Dzire-Front-view-105301.jpg?v=201711021421&q=85"
+                                style="width:100%" onclick="currentSlide(1)" alt="Swift Dzire">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/liva.webp.png" style="width:100%"
+                                onclick="currentSlide(2)" alt="Etios Liva">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor"
+                                src="https://imgd.aeplcdn.com/1056x594/ec/EF/32/17070/img/m/Toyota-Etios-Exterior-45017_ol.jpg?v=201711021421&q=85"
+                                style="width:100%" onclick="currentSlide(3)" alt="Etios">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/innova-webp1.jpg" style="width:100%"
+                                onclick="currentSlide(4)" alt="Innova">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor"
+                                src="https://imgd.aeplcdn.com/1056x594/cw/ec/42060/Maruti-Suzuki-Ertiga-Exterior-169144.jpg?v=20190509180611&wm=1&q=85"
+                                style="width:100%" onclick="currentSlide(5)" alt="Ertiga">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="https://wallpapercave.com/wp/wp4482161.jpg" style="width:100%"
+                                onclick="currentSlide(6)" alt="Innova Crysta">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/12t.jpg" style="width:100%" onclick="currentSlide(7)"
+                                alt="12 Seater Tempo">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/15t.jpg" style="width:100%" onclick="currentSlide(8)"
+                                alt="15 Seater Tempo">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/41b.jpg" style="width:100%" onclick="currentSlide(9)"
+                                alt="45 Seater Semi-Deluxe">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="./img/45b.jpg" style="width:100%" onclick="currentSlide(10)"
+                                alt="45 Seater Volvo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container1" id="contact">
+            <h1>contact us</h1>
+            <section class="inner-container">
+                <div class="contact" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Send Details</h1>
+                    <form action="/" method="get">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input type="text" name="phone" id="phone" placeholder="Enter Your Number">
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <!-- <hr> -->
+                <div class="info" data-aos="fade-up" data-aos-duration="1000">
+                    <p>Ekam Travels </p>
+                    <p> 230/29B Railway Colony Mandawali Street No.9A </p>
+                    <p> Phone No: <a href="tel:+91-9205209865">+91-9205209865</a> </p>
+                    <p> Email ID: <a href="mailto:sakshamsharma1709@gmail.com">sakshamsharma1709@gmail.com</a>
+                    </p>
+                </div>
+                <!-- <hr> -->
+                <div class="map" data-aos="fade-up" data-aos-duration="1000">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7004.004454489524!2d77.28900342274017!3d28.62969534677401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4ac9560ab65%3A0x4a53904624ddb502!2sRailway%20Colony%2C%20Mandawali%2C%20New%20Delhi%2C%20Delhi%20110092!5e0!3m2!1sen!2sin!4v1617992804625!5m2!1sen!2sin"
+                        width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <div class="name" data-aos="fade-down" data-aos-duration="1100">
+                <h1>Ekam Travels</h1>
+                <p> Copyright © 2021 | All rights reserved</p>
+                <div class="container2">
+                    Media Accounts
+                    <div class="overlay">
+                        <a href=""><img src="https://img.icons8.com/fluent/34/000000/instagram-new.png" /></a>
+                        <a href=""><img src="https://img.icons8.com/fluent/34/000000/facebook-new.png" /></a>
+                        <a href=""><img src="https://img.icons8.com/fluent/34/000000/linkedin.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="links" data-aos="fade-down" data-aos-duration="1100">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Gallery</a></li>
+                    <li><a href="/">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="links" data-aos="fade-down" data-aos-duration="1100">
+                <h2>About us</h2>
+                <ul>
+                    <li><a href="/">Our Journey</a></li>
+                    <li><a href="/">Vehicles</a></li>
+                    <li><a href="/">Best Tours</a></li>
+                    <li><a href="/">Customer Reviews</a></li>
+                </ul>
+            </div>
+        </section>
+        <button class="bt" onclick="topFunction()" id="myBtn" title="Go to top"><img
+                src="https://img.icons8.com/fluent/34/000000/collapse-arrow.png" /></button>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // const load = () => {
+        //     console.log("load event detected!");
+        //     if (window.innerWidth < 700) {
+        //         alert("your device is not compatible")
+        //         // window.close()
+        //         location.assign("tour1.html");
+        //     }
+        // }
+        if (window.innerWidth < 700) {
+            alert("your device is not compatible")
+            // window.close()
+            location.assign("tour1.html");
+        }
+        const form = document.querySelector('form')
+        const cta = document.querySelector('.cta')
+        // console.log(form)
+        // form.addEventListener('submit', event => {
+        //     // submit event detected
+        //     event.preventDefault()
+        //     // message.push("hello")
+        // })
+
+        // const yes1 = document.querySelector('id1');
+        // const no1 = document.querySelector('id2');
+        // yes1.addEventListener('click', function () {
+        //     h1.hidden = !h1.hidden;
+        //     h2.hidden = !h2.hidden;
+        //     h3.hidden = !h3.hidden;
+        //     h4.hidden = !h4.hidden;
+        // }, false);
+        // no1.addEventListener('click', function () {
+        //     h5.hidden = !h5.hidden;
+        //     h6.hidden = !h6.hidden;
+        // }, false);
+        // function yes() {
+        //     document.getElementById("id2").toggleAttribute("disabled")
+        // }
+        // function no() {
+        //     document.getElementById("id1").toggleAttribute("disabled")
+        // }    
+    </script>
+</body>
+</html>
